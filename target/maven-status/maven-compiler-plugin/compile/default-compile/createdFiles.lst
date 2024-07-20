@@ -1,0 +1,4 @@
+com\potato\compasslocator\Main.class
+com\potato\compasslocator\SetTargetCommand.class
+com\potato\compasslocator\CompassUpdater.class
+com\potato\compasslocator\PlayerHitEventListener.class

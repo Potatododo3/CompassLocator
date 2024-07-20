@@ -1,0 +1,16 @@
+name: CompassLocator
+version: '1.1'
+main: com.potato.hitplayers.Main
+api-version: '1.20'
+description: A plugin that allows players to set their compass to point towards another player with real-time distance updates in the action bar.
+author: Licensed (Potato_dodo0)
+
+commands:
+  settarget:
+    description: Sets the target player for the compass.
+    usage: /settarget <playername>
+    permission: playercompass.settarget
+permissions:
+  playercompass.settarget:
+    description: Allows a player to set the target player for the compass.
+    default: op
