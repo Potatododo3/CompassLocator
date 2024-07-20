@@ -11,7 +11,6 @@ public final class Main extends JavaPlugin {
         SetTargetCommand setTargetCommand = new SetTargetCommand(this);
         Objects.requireNonNull(getCommand("settarget")).setExecutor(setTargetCommand);
         new CompassUpdater(this, setTargetCommand).runTaskTimer(this, 0, 20); // Update every second
-        getServer().getPluginManager().registerEvents(new PlayerHitEventListener(), this);
     }
 
     @Override
